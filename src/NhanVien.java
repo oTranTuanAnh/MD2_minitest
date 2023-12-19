@@ -1,6 +1,6 @@
 package src;
 
-public abstract class NhanVien {
+public class NhanVien {
     private String maNhanVien;
     private String hoTen;
     private int tuoi;
@@ -68,5 +68,7 @@ public abstract class NhanVien {
                 ", email='" + email + '\'' +
                 '}';
     }
-    public abstract double luongThucLinh();
+    public double luongThucLinh(){
+        return 0;
+    };
 }
